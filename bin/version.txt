@@ -1,0 +1,5 @@
+cf --version
+
+6.7.0-c38c991-2014-11-12T01:45:23+00:00
+
+Architecture: Linux 64 bit
