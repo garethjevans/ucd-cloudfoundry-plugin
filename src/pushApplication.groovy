@@ -46,22 +46,21 @@ final def noroute = props['noroute'];
 final def nomanifest = props['nomanifest'];
 final def nohostname = props['nohostname'];
 final def randomroute = props['randomroute'];
-final def cf_home = props['cf_home'];
 
 def commandHelper = new CommandHelper(workDir);
 
 // Setup path
 try {
 	def curPath = System.getenv("PATH");
-	//println "Current PATH: " + curPath
+	println "Current PATH: " + curPath
 	def pluginHome = new File(System.getenv("PLUGIN_HOME"))
 	println "Setup of path using plugin home: " + pluginHome;
 	def binDir = new File(pluginHome, "bin")
 	def newPath = curPath+":"+binDir.absolutePath;
 	commandHelper.addEnvironmentVariable("PATH", newPath);
-	if (cf_home) {
-		commandHelper.addEnvironmentVariable("CF_HOME", cf_home);
-	}
+	def cfHome = new File(props['PLUGIN_INPUT_PROPS']).parentFile
+	println "Setting CF_HOME to: " + cfHome;
+	commandHelper.addEnvironmentVariable("CF_HOME", cfHome);
 	//commandHelper.printEnvironmentVariables();
 } catch(Exception e){
 	println "ERROR setting path: ${e.message}"

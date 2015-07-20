@@ -44,6 +44,9 @@ try {
 	def binDir = new File(pluginHome, "bin")
 	def newPath = curPath+":"+binDir.absolutePath;
 	commandHelper.addEnvironmentVariable("PATH", newPath);
+	def cfHome = new File(props['PLUGIN_INPUT_PROPS']).parentFile
+	println "Setting CF_HOME to: " + cfHome;
+	commandHelper.addEnvironmentVariable("CF_HOME", cfHome);
 } catch(Exception e){
 	println "ERROR setting path: ${e.message}"
 	System.exit(1)

@@ -13,7 +13,7 @@
 
 	<property name="project" value="" />
 
-	<property name="deployPluginArchiveName" value="releases/CloudFoundryPlugin_v1.2.zip" />
+	<property name="deployPluginArchiveName" value="releases/CloudFoundryPlugin_v1.3.zip" />
 
 	<property name="src.dir" value="${basedir}/src" />
 	<property name="build.dir" value="${basedir}/build" />
