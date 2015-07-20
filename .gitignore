@@ -3,3 +3,4 @@ launchConfigurations/
 .jazzignore
 .cfignore
 .DS_Store
+build
