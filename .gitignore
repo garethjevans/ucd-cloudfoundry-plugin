@@ -1,0 +1,5 @@
+launchConfigurations/
+.project
+.jazzignore
+.cfignore
+.DS_Store

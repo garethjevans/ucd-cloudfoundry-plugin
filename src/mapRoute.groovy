@@ -33,6 +33,7 @@ final def space = props['space'];
 final def app = props['app'];
 final def domain = props['domain'];
 final def hostname = props['hostname'];
+final def cf_home = props['cf_home'];
 
 def commandHelper = new CommandHelper(workDir);
 
@@ -44,6 +45,9 @@ try {
 	def binDir = new File(pluginHome, "bin")
 	def newPath = curPath+":"+binDir.absolutePath;
 	commandHelper.addEnvironmentVariable("PATH", newPath);
+	if (cf_home) {
+		commandHelper.addEnvironmentVariable("CF_HOME", cf_home);
+	}
 } catch(Exception e){
 	println "ERROR setting path: ${e.message}"
 	System.exit(1)

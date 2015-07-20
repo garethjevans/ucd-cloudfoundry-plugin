@@ -84,6 +84,9 @@
       <property name="randomroute">
        <property-ui type="checkBox" label="Random route" description="Create a random route for this app."/>
       </property>
+      <property name="cf_home">
+       <property-ui type="textbox" label="CF HOME" description="CF_HOME location."/>
+      </property>
     </properties>
    
     <post-processing><![CDATA[
@@ -129,6 +132,9 @@
       <property name="args" required="false">
         <property-ui type="textBox" label="Arguments" default-value="" description="Arguments to be passed to the script."/>
       </property>
+      <property name="cf_home">
+       <property-ui type="textbox" label="CF HOME" description="CF_HOME location."/>
+      </property>
     </properties>
    
     <post-processing><![CDATA[
@@ -171,6 +177,9 @@
       </property>
       <property name="args" required="false">
         <property-ui type="textBox" label="Arguments" default-value="" description="Arguments to be passed to the script."/>
+      </property>
+      <property name="cf_home">
+       <property-ui type="textbox" label="CF HOME" description="CF_HOME location."/>
       </property>
     </properties>
    
@@ -354,7 +363,9 @@
       <property name="hostname" required="false">
         <property-ui type="textBox" label="Hostname" default-value="" description="The hostname within the domain for the url route."/>
       </property>
-      
+      <property name="cf_home">
+       <property-ui type="textbox" label="CF HOME" description="CF_HOME location."/>
+      </property>
     </properties>
    
     <post-processing><![CDATA[
