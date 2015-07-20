@@ -113,7 +113,7 @@
   </meta-html>
     
   <!-- Do not change the release-version, the build process injects it. -->
-  <release-version>1.60003</release-version>  
+  <release-version>2.1</release-version>  
     
   <release-notes>
     <!--
@@ -132,8 +132,8 @@
       releaseNotes/release1.html (where release1.html contains html formatted version information)
       -->
       
-	  <release-note plugin-version="10">
-		Upgrade to cf version 6.7.0-c38c991-2014-11-12T01:45:23+00:00
+	  <release-note plugin-version="12">
+		Support for dynamic CF_HOME configuration
 	  </release-note>
     
   </release-notes>

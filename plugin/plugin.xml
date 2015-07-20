@@ -11,7 +11,7 @@
 -->
 <plugin xmlns="http://www.urbancode.com/PluginXMLSchema_v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <header>
-    <identifier version="9" id="com.urbancode.air.plugin.cloudfoundry" name="CloudFoundry"/>
+    <identifier version="12" id="com.urbancode.air.plugin.cloudfoundry" name="CloudFoundry"/>
     <description>
     The CloudFoundry plugin will use the CloudFoundry command line utility to interact with applications in a target CloudFoundry system.
       </description>
