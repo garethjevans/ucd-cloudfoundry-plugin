@@ -189,7 +189,7 @@ try {
 
 	commandHelper.runCommand("Deploying CloudFoundry application", commandArgs);
 } catch(Exception e){
-	println "ERROR authenticating : ${e.message}";
+	println "ERROR pushing applicaition : ${e.message}";
 	System.exit(1);
 }
 
