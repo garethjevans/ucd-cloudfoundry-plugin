@@ -113,7 +113,7 @@
   </meta-html>
     
   <!-- Do not change the release-version, the build process injects it. -->
-  <release-version>2.1</release-version>  
+  <release-version>2.2</release-version>  
     
   <release-notes>
     <!--
@@ -132,8 +132,8 @@
       releaseNotes/release1.html (where release1.html contains html formatted version information)
       -->
       
-	  <release-note plugin-version="12">
-		Support for dynamic CF_HOME configuration
+	  <release-note plugin-version="13">
+		Allowed the --skip-ssl-validation flag to be provided
 	  </release-note>
     
   </release-notes>

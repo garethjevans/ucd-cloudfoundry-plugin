@@ -24,6 +24,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -111,6 +114,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -153,6 +159,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -197,6 +206,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -245,6 +257,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -289,6 +304,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -332,6 +350,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -378,6 +399,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -426,6 +450,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -469,6 +496,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -508,6 +538,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -549,6 +582,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -588,6 +624,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
@@ -632,6 +671,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -675,6 +717,9 @@
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
       </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
+      </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>
       </property>
@@ -715,6 +760,9 @@
     <properties>
       <property name="api" required="true">
         <property-ui type="textBox" label="API" hidden="true" default-value="${p:resource/CF_API}" description="A url of the target Cloud Foundry system, such as http://api.ng.bluemix.net."/>
+      </property>
+      <property name="ssl" required="false">
+        <property-ui type="textBox" label="Ignore SSL Verification" hidden="true" default-value="${p:resource/CF_IGNORE_SSL_VERIFICATION}" description="Ignore SSL verification when interacting with a Cloud Foundry system"/>
       </property>
       <property name="user" required="true">
         <property-ui type="textBox" label="Cloud Foundry User" default-value="" description="The user name of the account that will interact with Cloud Foundry system"/>

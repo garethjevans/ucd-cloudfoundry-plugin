@@ -33,6 +33,7 @@ final def space = props['space'];
 final def name = props['name'];
 final def service = props['service'];
 final def application = props['application'];
+final def ignoreSslVerification = props['ssl'];
 
 def commandHelper = new CommandHelper(workDir);
 
@@ -54,7 +55,11 @@ try {
 
 // Set cf api
 try {
-	def commandArgs = ["cf", "api", api];
+	def commandArgs = ["cf", "api"]
+	if (ignoreSslVerification) {
+		commandArgs << "--skip-ssl-verification"
+	}	
+	commandArgs <<  api
 	commandHelper.runCommand("Setting cf target api", commandArgs);
 } catch(Exception e){
 	println "ERROR setting api: ${e.message}"
